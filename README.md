@@ -36,10 +36,13 @@ export default [
 
 ## Prettier
 
-```json
-// .prettierrc
+```js
+// .prettierrc.js
 
-{
-  "extends": "@adson/config-js/prettier-config.json"
-}
+import prettierConfig from "@adson/config-js/prettier.js";
+
+export default {
+  ...prettierConfig,
+  semi: false,
+};
 ```

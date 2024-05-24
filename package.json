@@ -1,16 +1,15 @@
 {
   "name": "@adson/config-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "repository": {
     "url": "AdsonCicilioti/config-js"
   },
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@eslint/compat": "^1.0.1",
     "@eslint/js": "^9.3.0",
-    "@types/bun": "latest",
-    "eslint": "9.x",
+    "eslint": "^9.3.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-react": "^7.34.1",
@@ -19,7 +18,7 @@
     "typescript-eslint": "^7.10.0"
   },
   "peerDependencies": {
-    "eslint": "9.x",
+    "eslint": ">=9",
     "typescript": ">=5.0.0"
   }
 }

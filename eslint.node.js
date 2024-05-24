@@ -1,13 +1,13 @@
-import { fixupConfigRules } from "@eslint/compat";
-import { FlatCompat } from "@eslint/eslintrc";
-import js from "@eslint/js";
-import prettier from "eslint-config-prettier";
-import globals from "globals";
-import ts from "typescript-eslint";
+const fixupConfigRules = require("@eslint/compat");
+const { FlatCompat } = require("@eslint/eslintrc");
+const js = require("@eslint/js");
+const prettier = require("eslint-config-prettier");
+const globals = require("globals");
+const ts = require("typescript-eslint");
 
 const compat = new FlatCompat();
 
-export default [
+module.exports = [
   {
     languageOptions: {
       globals: {

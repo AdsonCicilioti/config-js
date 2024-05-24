@@ -1,4 +1,4 @@
-const fixupConfigRules = require("@eslint/compat");
+const { fixupConfigRules } = require("@eslint/compat");
 const { FlatCompat } = require("@eslint/eslintrc");
 const js = require("@eslint/js");
 const prettier = require("eslint-config-prettier");

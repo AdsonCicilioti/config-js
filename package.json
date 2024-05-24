@@ -1,7 +1,12 @@
 {
   "name": "@adson/config-js",
-  "module": "index.ts",
-  "type": "module",
+  "version": "0.0.1",
+  "private": false,
+  "repository": {
+    "url": "AdsonCicilioti/config-js"
+  },
+  "main": "index.js",
+  "license": "MIT",
   "devDependencies": {
     "@eslint/compat": "^1.0.1",
     "@eslint/js": "^9.3.0",
@@ -15,6 +20,7 @@
     "typescript-eslint": "^7.10.0"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "eslint": "9.x",
+    "typescript": ">=5.0.0"
   }
 }

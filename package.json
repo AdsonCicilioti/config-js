@@ -5,7 +5,7 @@
   "repository": {
     "url": "AdsonCicilioti/config-js"
   },
-  "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@eslint/compat": "^1.0.1",

@@ -24,10 +24,10 @@ export default [
 ```js
 // eslint.config.js
 
-import NodeEslintConfig from "@adson/config-js/eslint.node.js";
+import reactEslintConfig from "@adson/config-js/eslint.node.js";
 
 export default [
-  ...NodeEslintConfig,
+  ...reactEslintConfig,
   // ...
 ];
 ```
